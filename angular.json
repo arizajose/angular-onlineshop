@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "devwebintapp"
+  "defaultProject": "devwebintapp",
+  "cli": {
+    "analytics": "c56c0c25-31aa-4205-aab9-db54059b3bd1"
+  }
 }
