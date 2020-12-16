@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+/*Buena practica: Reset CSS
+  https://allthingssmitty.com/2017/01/09/css-reset-for-minimalists/
+*/
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*Esta regla CSS define un restablecimiento general (reset CSS) para todos los elementos y sus pseudolementos
+  ::before y ::after de la página web solo de las propiedades del tamaño de caja, padding y margin. Con esto el
+  dimensionamiento del model box de los elementos (width y height) se calculará desde su borde a su vez que las
+  propiedades de padding y margin se resetean a cero. El fin de esto es presentar una pizarra limpia para los
+  elementos de estilos iniciales en nuestro proyecto con el propósito de minimizar las múltiples diferencias
+  visuales que se presentan al momento de visualizar una página web en distintos navegadores. Vale recalcar que
+  la regla debe estar declarada siempre al inicio de la hoja de estilos.*/
+
+/*Otro ejemplo de reset CSS es el de Eric Meyer:
+  https://meyerweb.com/eric/tools/css/reset/
+  */
+/*Una solución alternativa es usar Normalize CSS:
+  https://necolas.github.io/normalize.css/
+  */
+/*tamaño de fuente root*/
+/*root*/
+:root {
+  font-size: 16px;
+}
+/*valor por defecto del documento HTML.*/
+/*variables CSS globales(alcance global,accesible desde cualquier lugar del proyecto)*/
+/*  --link-button-bgcolor:red;
+    --link-button-txtcolor:white; */
+/*las variables CSS globales pueden redefinirse por medio de las cascada en otros
+elementos, cognviertiendose en variables locales(alcance local).*/
+
+/*cuerpo(body)*/
+/* body {
+} */
