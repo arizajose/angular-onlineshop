@@ -1,1 +1,327 @@
-<p>products works!</p>
+<section class="mt-3">
+  <div class="container-fluid list-group list-group-horizontal p-2">
+    <!--Menu de búsqueda-->
+    <section class=" w-25  mx-3">
+      <div class="card">
+        <h6 class="card-header text-center text-light bg-primary">
+          <i class="fas fa-search  mt-1 mx-3"></i> Resultados(25)
+        </h6>
+        <div class="card-body">
+          <form>
+            <div class="form-group mx-5">
+              <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                <option selected>(Marca)</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="form-group mx-5">
+              <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                <option selected>(Categoría)</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="form-group mx-5">
+              <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                <option selected>(Precio)</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="form-group mx-5">
+              <button type="submit" class=" form-control btn btn-primary">Filtrar productos</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--Lista de productos-->
+
+    <section class=" w-75  mx-3">
+      <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/img/patines.jpg" class="card-img-top w-100" alt="...">
+            <div class="card-body pt-2">
+              <h6 class="card-title font-weight-bolder my-0">Producto</h6>
+              <p class="card-text font-weight-normal my-0">Marca</p>
+              <div class="row mt-1">
+                <div class="col">
+                 <!-- <div class="btn-group mr-2" role="group" aria-label="First group">
+                   <button type="button" class="btn btn-primary rounded-circle colorbut mr-1"></button>
+                    <button type="button" class="btn btn-secondary rounded-circle colorbut mr-1"></button>
+                    <button type="button" class="btn btn-warning rounded-circle colorbut mr-1"></button>
+                    <button type="button" class="btn btn-success rounded-circle colorbut mr-1"></button>
+                    <button type="button" class="btn btn-warning rounded-circle colorbut mr-1"></button>
+                  </div> </div>-->
+                    <div class="btn-group btn-group-toggle mr-2" data-toggle="buttons">
+                      <label class="btn btn-primary rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option1" value="color1">
+                      </label>
+                      <label class="btn btn-secondary rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option2" value="color2">
+                      </label>
+                      <label class="btn btn-warning rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option3" value="color3">
+                      </label>
+                      <label class="btn btn-success rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option4" value="color4">
+                      </label>
+                      <label class="btn btn-warning rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option5" value="color5">
+                      </label>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="card-text font-weight-normal text-center">S/ 125.00</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col">
+                  <a class="btn btn-outline-info w-100" href="#" role="button">
+                    <i class="fas fa-info-circle  mt-1 mx-2"></i>Inform.
+                  </a>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-outline-danger w-100">
+                    <i class="fas fa-cart-plus mt-1 mx-2"></i>Agregar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/img/patines.jpg" class="card-img-top w-100" alt="...">
+            <div class="card-body pt-2">
+              <h6 class="card-title font-weight-bolder my-0">Producto</h6>
+              <p class="card-text font-weight-normal my-0">Marca</p>
+              <div class="row mt-1">
+                <div class="col">
+                    <div class="btn-group btn-group-toggle mr-2" data-toggle="buttons">
+                      <label class="btn btn-primary rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option1" value="color1">
+                      </label>
+                      <label class="btn btn-secondary rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option2" value="color2">
+                      </label>
+                      <label class="btn btn-warning rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option3" value="color3">
+                      </label>
+                      <label class="btn btn-success rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option4" value="color4">
+                      </label>
+                      <label class="btn btn-warning rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option5" value="color5">
+                      </label>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="card-text font-weight-normal text-center">S/ 125.00</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col">
+                  <a class="btn btn-outline-info w-100" href="#" role="button">
+                    <i class="fas fa-info-circle  mt-1 mx-2"></i>Inform.
+                  </a>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-outline-danger w-100">
+                    <i class="fas fa-cart-plus mt-1 mx-2"></i>Agregar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/img/patines.jpg" class="card-img-top w-100" alt="...">
+            <div class="card-body pt-2">
+              <h6 class="card-title font-weight-bolder my-0">Producto</h6>
+              <p class="card-text font-weight-normal my-0">Marca</p>
+              <div class="row mt-1">
+                <div class="col">
+                    <div class="btn-group btn-group-toggle mr-2" data-toggle="buttons">
+                      <label class="btn btn-primary rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option1" value="color1">
+                      </label>
+                      <label class="btn btn-secondary rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option2" value="color2">
+                      </label>
+                      <label class="btn btn-warning rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option3" value="color3">
+                      </label>
+                      <label class="btn btn-success rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option4" value="color4">
+                      </label>
+                      <label class="btn btn-warning rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option5" value="color5">
+                      </label>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="card-text font-weight-normal text-center">S/ 125.00</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col">
+                  <a class="btn btn-outline-info w-100" href="#" role="button">
+                    <i class="fas fa-info-circle  mt-1 mx-2"></i>Inform.
+                  </a>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-outline-danger w-100">
+                    <i class="fas fa-cart-plus mt-1 mx-2"></i>Agregar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/img/patines.jpg" class="card-img-top w-100" alt="...">
+            <div class="card-body pt-2">
+              <h6 class="card-title font-weight-bolder my-0">Producto</h6>
+              <p class="card-text font-weight-normal my-0">Marca</p>
+              <div class="row mt-1">
+                <div class="col">
+                    <div class="btn-group btn-group-toggle mr-2" data-toggle="buttons">
+                      <label class="btn btn-primary rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option1" value="color1">
+                      </label>
+                      <label class="btn btn-secondary rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option2" value="color2">
+                      </label>
+                      <label class="btn btn-warning rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option3" value="color3">
+                      </label>
+                      <label class="btn btn-success rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option4" value="color4">
+                      </label>
+                      <label class="btn btn-warning rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option5" value="color5">
+                      </label>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="card-text font-weight-normal text-center">S/ 125.00</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col">
+                  <a class="btn btn-outline-info w-100" href="#" role="button">
+                    <i class="fas fa-info-circle  mt-1 mx-2"></i>Inform.
+                  </a>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-outline-danger w-100">
+                    <i class="fas fa-cart-plus mt-1 mx-2"></i>Agregar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/img/patines.jpg" class="card-img-top w-100" alt="...">
+            <div class="card-body pt-2">
+              <h6 class="card-title font-weight-bolder my-0">Producto</h6>
+              <p class="card-text font-weight-normal my-0">Marca</p>
+              <div class="row mt-1">
+                <div class="col">
+                    <div class="btn-group btn-group-toggle mr-2" data-toggle="buttons">
+                      <label class="btn btn-primary rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option1" value="color1">
+                      </label>
+                      <label class="btn btn-secondary rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option2" value="color2">
+                      </label>
+                      <label class="btn btn-warning rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option3" value="color3">
+                      </label>
+                      <label class="btn btn-success rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option4" value="color4">
+                      </label>
+                      <label class="btn btn-warning rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option5" value="color5">
+                      </label>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="card-text font-weight-normal text-center">S/ 125.00</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col">
+                  <a class="btn btn-outline-info w-100" href="#" role="button">
+                    <i class="fas fa-info-circle  mt-1 mx-2"></i>Inform.
+                  </a>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-outline-danger w-100">
+                    <i class="fas fa-cart-plus mt-1 mx-2"></i>Agregar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/img/patines.jpg" class="card-img-top w-100" alt="...">
+            <div class="card-body pt-2">
+              <h6 class="card-title font-weight-bolder my-0">Producto</h6>
+              <p class="card-text font-weight-normal my-0">Marca</p>
+              <div class="row mt-1">
+                <div class="col">
+                    <div class="btn-group btn-group-toggle mr-2" data-toggle="buttons">
+                      <label class="btn btn-primary rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option1" value="color1">
+                      </label>
+                      <label class="btn btn-secondary rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option2" value="color2">
+                      </label>
+                      <label class="btn btn-warning rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option3" value="color3">
+                      </label>
+                      <label class="btn btn-success rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option4" value="color4">
+                      </label>
+                      <label class="btn btn-warning rounded-circle colorbut mr-2">
+                        <input type="radio" name="options" id="option5" value="color5">
+                      </label>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="card-text font-weight-normal text-center">S/ 125.00</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col">
+                  <a class="btn btn-outline-info w-100" href="#" role="button">
+                    <i class="fas fa-info-circle  mt-1 mx-2"></i>Inform.
+                  </a>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-outline-danger w-100">
+                    <i class="fas fa-cart-plus mt-1 mx-2"></i>Agregar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
