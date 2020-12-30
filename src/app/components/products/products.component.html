@@ -40,10 +40,8 @@
       </div>
     </section>
     <!--Lista de productos-->
-
     <section class=" w-75  mx-3">
       <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
-
         <div class="col mb-4">
           <div class="card">
             <img src="assets/img/patines.jpg" class="card-img-top w-100" alt="...">
@@ -323,5 +321,43 @@
         </div>
       </div>
     </section>
+  </div>
+</section>
+
+<!--Login al sistema en una ventana modal-->
+<section>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel "><i class="fa fa-user-circle text-light mx-3 text-dark"></i>Iniciar sesión</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group w-75 mx-auto">
+              <label for="exampleInputEmail1">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group w-75 mx-auto">
+              <label for="exampleInputPassword1">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check w-75 mx-auto">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Acepto los término</label>
+            </div>
+            <div class="form-group w-75 mx-auto">
+              <button type="submit" class="form-control btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <p class="mx-auto text-center">¿No tienes una cuenta? <a routerLink="/register" data-dismiss="modal">Registrare aquí</a></p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
